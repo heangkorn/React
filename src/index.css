@@ -1,15 +1,5 @@
-.card{
-  border: 1px solid hsl(0, 0%, 80%) ;
-  border-radius: 10px; 
-  display: inline block;
-}
-.card .card-image{
-  max-width: 60px;
-  height: auto;
-}
-.card .card-title{
-  font: optional;
-}
-.card .card-text{
-  color: rgb(231, 161, 161);
+.styles{
+  background-color: aqua;
+  color: brown;
+  border-radius: 5px;
 }
