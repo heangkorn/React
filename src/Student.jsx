@@ -1,12 +1,20 @@
-function Student(props){
-  return(
+import React from 'react';
+import PropTypes from 'prop-types';
+
+function Student(props) {
+  return (
     <div>
-      <p>Name: {props.name} </p>
-      <P>Age: {props.age}</P>
-      <p>Student: </p>
-
+      <p>Name: {props.name}</p>
+      <p>Age: {props.age}</p>
+      <p>Student: {props.isStudent ? "Yes" : "No"}</p>
     </div>
-  )
-
+  );
 }
-export default Student
+
+Student.propTypes = {
+  name: PropTypes.string.isRequired,
+  age: PropTypes.number.isRequired,
+  isStudent: PropTypes.bool.isRequired,
+};
+
+export default Student;
