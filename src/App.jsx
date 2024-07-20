@@ -1,15 +1,12 @@
-// how to stlye react components with css
-//(not including external framwork or preprocessors)
-//1. external
-//2. modules
-//3. Inline 
-import Button from './Button.jsx'
-
+//props = read-only proterties that are shared between components. 
+// A parent componet can send data to a child component 
+// <Component key=value>
+import Student from './Student.jsx'
 function App() {
   return(
-  
-   <Button/>
-   
+    <>
+    <Student name="Spongebob" age="30" isStudent={true}/>
+    </>
     
   );
 }
