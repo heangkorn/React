@@ -1,5 +1,6 @@
-.styles{
-  background-color: aqua;
-  color: brown;
-  border-radius: 5px;
+.welcome-message{
+ background-color: pink;
+}
+.login-propmt{
+  background-color: blue;
 }
